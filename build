@@ -12,6 +12,7 @@ echo Building \
 && echo "(in .)" && cd . && make $1 && cd - > /dev/null \
 && echo "(in cmp)" && cd cmp && make $1 && cd - > /dev/null \
 && echo "(in cmd/demo)" && cd cmd/demo && make $1 && cd - > /dev/null \
+&& echo "(in cmd/chans)" && cd cmd/chans && make $1 && cd - > /dev/null \
 
 fi
 

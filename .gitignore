@@ -2,3 +2,5 @@ sao.xcodeproj
 _go_.6
 bin
 _obj
+cmd/chans/chans
+cmd/demo/demo

@@ -26,5 +26,5 @@ command: $(GBROOT)/bin/$(TARG)
 
 
 # gb: local dependencies
-$(TARG): $(GBROOT)/_obj/github.com/skelterjohn/soa.a
-$(TARG): $(GBROOT)/_obj/github.com/skelterjohn/soa/cmp.a
+$(TARG): $(GBROOT)/_obj/github.com/skelterjohn/sao.a
+$(TARG): $(GBROOT)/_obj/github.com/skelterjohn/sao/cmp.a

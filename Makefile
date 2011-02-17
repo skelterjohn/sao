@@ -3,9 +3,11 @@
 
 include $(GOROOT)/src/Make.inc
 
-TARG=github.com/skelterjohn/soa
+TARG=github.com/skelterjohn/sao
 GOFILES=\
 	browser.go\
+	comm.go\
+	web.go\
 
 # gb: this is the local install
 GBROOT=.

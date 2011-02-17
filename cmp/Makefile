@@ -3,7 +3,7 @@
 
 include $(GOROOT)/src/Make.inc
 
-TARG=github.com/skelterjohn/soa/cmp
+TARG=github.com/skelterjohn/sao/cmp
 GOFILES=\
 	buttons.go\
 	embed.go\
@@ -24,3 +24,5 @@ package: $(GBROOT)/_obj/$(TARG).a
 
 include $(GOROOT)/src/Make.pkg
 
+# gb: local dependencies
+_obj/$(TARG).a: $(GBROOT)/_obj/github.com/skelterjohn/sao.a
