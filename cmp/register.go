@@ -5,6 +5,6 @@ import (
 )
 
 func RegisterAll() {
-    web.Get("/Button?(.*)", Button)
-	web.Get("/TextEdit?(.*)", TextEdit)
+    web.Get("/Button", Button)
+	web.Get("/TextEdit", TextEdit)
 }

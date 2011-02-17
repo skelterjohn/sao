@@ -1,5 +1,5 @@
-//target:github.com/skelterjohn/soa
-package soa
+//target:github.com/skelterjohn/sao
+package sao
 
 import (
 	"os"
